@@ -67,10 +67,9 @@ class ViewController: UIViewController {
         startGame()
         
         //除錯測試
-        print("第1題\(rightAnswer)")
-        print(questionData[index].option)
-        print(questionData[index])
-        //print(setTitle(questionData[1].option[0])
+        //print("第1題\(rightAnswer)")
+        //print(questionData[index].option)
+        //print(questionData[index])
     }
     
     // 選擇題按鈕
@@ -86,7 +85,7 @@ class ViewController: UIViewController {
             
         }
         
-        // 在10題之內進行遊戲，或是結束遊戲計算總分 跑function
+        // 在 10 題之內進行遊戲，或是結束遊戲計算總分 跑function
         if index < 10{
             startGame()
         } else {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -29,7 +29,7 @@
                                 <rect key="frame" x="78" y="310" width="289" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="18" translatesAutoresizingMaskIntoConstraints="NO" id="VVQ-Rj-dWO">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="VVQ-Rj-dWO">
                                 <rect key="frame" x="45" y="193" width="217" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" red="0.52224963899999999" green="0.21687105300000001" blue="0.019470304250000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -64,6 +64,15 @@
                                     <action selector="answerClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BxT-s4-ORc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdz-l4-kXQ">
+                                <rect key="frame" x="312" y="625" width="95" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NaikaiFont-SemiBold" family="內海字體" pointSize="22"/>
+                                <state key="normal" title="4" backgroundImage="btn-choice"/>
+                                <connections>
+                                    <action selector="answerClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Gq-ZV-2NR"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBQ-xt-F5n">
                                 <rect key="frame" x="217" y="625" width="95" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -96,15 +105,6 @@
                                 <color key="textColor" red="0.52941176469999995" green="0.19215686269999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdz-l4-kXQ">
-                                <rect key="frame" x="312" y="625" width="95" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NaikaiFont-SemiBold" family="內海字體" pointSize="22"/>
-                                <state key="normal" title="4" backgroundImage="btn-choice"/>
-                                <connections>
-                                    <action selector="answerClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Gq-ZV-2NR"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,7 +115,6 @@
                         <outlet property="scoreLabel" destination="7tA-b4-v00" id="8xe-aU-Ssj"/>
                         <outletCollection property="answerButton" destination="mBH-6U-o5Y" collectionClass="NSMutableArray" id="9xb-rj-2vx"/>
                         <outletCollection property="answerButton" destination="EGD-Va-Isy" collectionClass="NSMutableArray" id="Fyx-pN-31g"/>
-                        <outletCollection property="answerButton" destination="EGD-Va-Isy" collectionClass="NSMutableArray" id="nDQ-0O-VwA"/>
                         <outletCollection property="answerButton" destination="kBQ-xt-F5n" collectionClass="NSMutableArray" id="SAn-kv-MPV"/>
                         <outletCollection property="answerButton" destination="wdz-l4-kXQ" collectionClass="NSMutableArray" id="IiD-lL-tTs"/>
                     </connections>
