@@ -13,6 +13,8 @@
 		9A0B5FBA264CD6F700E96CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B5FB8264CD6F700E96CD4 /* Main.storyboard */; };
 		9A0B5FBC264CD6F900E96CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B5FBB264CD6F900E96CD4 /* Assets.xcassets */; };
 		9A0B5FBF264CD6F900E96CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B5FBD264CD6F900E96CD4 /* LaunchScreen.storyboard */; };
+		9A0B5FC8264CDA0400E96CD4 /* NaikaiFont-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B5FC7264CDA0400E96CD4 /* NaikaiFont-SemiBold.ttf */; };
+		9A0B5FCC264CF4DC00E96CD4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B5FCB264CF4DC00E96CD4 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9A0B5FBB264CD6F900E96CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0B5FBE264CD6F900E96CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A0B5FC0264CD6F900E96CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0B5FC7264CDA0400E96CD4 /* NaikaiFont-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NaikaiFont-SemiBold.ttf"; sourceTree = "<group>"; };
+		9A0B5FCB264CF4DC00E96CD4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				9A0B5FB4264CD6F700E96CD4 /* SceneDelegate.swift */,
 				9A0B5FB6264CD6F700E96CD4 /* ViewController.swift */,
 				9A0B5FB8264CD6F700E96CD4 /* Main.storyboard */,
+				9A0B5FCB264CF4DC00E96CD4 /* Question.swift */,
 				9A0B5FBB264CD6F900E96CD4 /* Assets.xcassets */,
 				9A0B5FBD264CD6F900E96CD4 /* LaunchScreen.storyboard */,
 				9A0B5FC0264CD6F900E96CD4 /* Info.plist */,
+				9A0B5FC7264CDA0400E96CD4 /* NaikaiFont-SemiBold.ttf */,
 			);
 			path = "QnAAnimals叢林冒險選擇題";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				9A0B5FBF264CD6F900E96CD4 /* LaunchScreen.storyboard in Resources */,
 				9A0B5FBC264CD6F900E96CD4 /* Assets.xcassets in Resources */,
 				9A0B5FBA264CD6F700E96CD4 /* Main.storyboard in Resources */,
+				9A0B5FC8264CDA0400E96CD4 /* NaikaiFont-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0B5FB7264CD6F700E96CD4 /* ViewController.swift in Sources */,
+				9A0B5FCC264CF4DC00E96CD4 /* Question.swift in Sources */,
 				9A0B5FB3264CD6F700E96CD4 /* AppDelegate.swift in Sources */,
 				9A0B5FB5264CD6F700E96CD4 /* SceneDelegate.swift in Sources */,
 			);
